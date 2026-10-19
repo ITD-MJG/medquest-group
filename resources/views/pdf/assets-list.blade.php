@@ -51,7 +51,7 @@
         .asset-code h6 {
             margin: 0;
             padding: 0;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 600;
         }
     </style>
@@ -75,7 +75,7 @@ $chunks = $assets->chunk(3);
                                         <img src="{{ asset('storage/' . $asset->company->company_logo) }}" alt="Medquest Jaya Global" class="pb-1">
                                     </div>
                                     <div class="col-12 asset-code text-center">
-                                        <h6 class="pb-1 mt-1" style="font-size: smaller">{{ $asset->asset_code }}</h6>
+                                        <h6 class="pb-1 mt-1">{{ $asset->asset_code }}</h6>
                                     </div>
                                 </div>
                             </div>
