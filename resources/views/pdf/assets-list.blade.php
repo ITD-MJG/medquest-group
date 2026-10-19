@@ -51,7 +51,7 @@
         .asset-code h6 {
             margin: 0;
             padding: 0;
-            font-size: 10px;
+            font-size: 8px;
             font-weight: 600;
         }
     </style>
