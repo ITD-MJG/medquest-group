@@ -28,6 +28,8 @@
             align-items: flex-start;
             justify-content: center;
             padding-left: 6px;
+            padding-right: 6px;
+            align-self: stretch;
         }
         .medquest-logo {
             width: 100%;
@@ -42,16 +44,26 @@
             display: block;
             margin-bottom: 2px;
         }
+        .asset-details > .row {
+            width: 100%;
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
         .asset-code {
             font-size: 12px;
             font-weight: 600;
             word-break: break-all;
             color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         .asset-code h6 {
             margin: 0;
             padding: 0;
-            font-size: 8px;
+            font-size: 9px;
             font-weight: 600;
         }
     </style>
