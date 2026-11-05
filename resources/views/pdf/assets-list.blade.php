@@ -52,6 +52,8 @@
             justify-content: center;
         }
         .asset-code {
+            padding-left: 2px;
+            padding-right: 2px;
             font-size: 12px;
             font-weight: 600;
             word-break: break-all;
