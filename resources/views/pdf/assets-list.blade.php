@@ -27,8 +27,8 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
-            padding-left: 6px;
-            padding-right: 6px;
+            padding-left: 0;
+            padding-right: 0;
             align-self: stretch;
         }
         .medquest-logo {
