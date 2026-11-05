@@ -38,8 +38,8 @@
             align-items: center;
         }
         .medquest-logo img {
-            max-width: 75px;
-            width: 60px;
+            max-width: 50px;
+            width: 42px;
             height: auto;
             display: block;
             margin-bottom: 2px;
